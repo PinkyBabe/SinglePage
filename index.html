@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio ni Piodos</title>
+    <Style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: pink;
+        }
+
+        main {
+            background-color: pink;
+            padding: 40px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .project {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 20px 0;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            header p {
+                font-size: 16px;
+            }
+        }
+    </Style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Portfolio ni Piodos</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="navigateTo('home')">Home</a></li>
+                    <li><a href="#" onclick="navigateTo('about')">About</a></li>
+                    <li><a href="#" onclick="navigateTo('projects')">Projects</a></li>
+                </ul>
+            </nav>
+        
+    </header>
+
+    <main id="home" class="container">
+        <h2>Welcome sa Portfolio ni Piodos!</h2>
+        <p>"Giving up is Gay, So just give up"</p>
+    </main>
+
+    <main id="about" class="container" style="display: none;">
+        <h2>About Me</h2>
+        <p>Simlple nga gwapo nga bata</p>
+    </main>
+
+    <main id="projects" class="container" style="display: none;">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/Abstraction">Abstraction</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/ArraySort">ArraySort</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/BankAccount">BankAccount</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/Color">Color</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/Drinks">Drinks</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/Encapsulation">Encapsulation</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/Inheritance">Inheritance</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/Lamp%20and%20Student(Lab%20Exercise%201)">Lamp and Student(Lab Excercise 1)</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/Person">Person</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/Polymorphism">Polymorphism</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/StudentProfile">Student Profile</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/bubblebutt">Bubble Sort</a></h3>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/sampleproject">Sample Project</a></h3>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
