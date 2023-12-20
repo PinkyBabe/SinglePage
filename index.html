@@ -24,8 +24,13 @@
                 <li><a href="#" onclick="navigateTo('home')">Home</a></li>
                 <li><a href="#" onclick="navigateTo('about')">About</a></li>
                 <li><a href="#" onclick="navigateTo('resume')">Resume</a></li>
-                <li><a href="#" onclick="navigateTo('projects')">Projects</a></li>
-                <li><a href="#" onclick="navigateTo('repositories')">Repositories</a></li>
+                <li>
+                    <a>Projects</a>
+                    <ul>
+                        <li><a href="#" onclick="navigateTo('projects')">Object Oriented Programming</a></li>
+                        <li><a href="#" onclick="navigateTo('repositories)">Event-Driven Repositories</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
 
@@ -63,7 +68,7 @@
     </main>
 
     <main id="projects" class="container" style="display: none;">
-        <h2>Projects</h2>
+        <h2>Object Oriented Programming Projects</h2>
         <br><br>
         <div class="project">
             <h3><a href="https://github.com/PinkyBabe/IT21C-Project/tree/main/src/Abstraction">Abstraction</a></h3>
@@ -165,14 +170,12 @@
 
     </main>
 
-    <footer>
+    <script src="app.js"></script>
+</body>
+<footer>
         <div>
             <p>&copy; 2023 Jam Piodos. All rights reserved.</p>
         </div>
-    </footer>
-
-
-    <script src="app.js"></script>
-</body>
+</footer>
 
 </html>
